@@ -13,6 +13,9 @@
     margin-right: 10px;
 }
 
+.exchange {
+    margin-top: 10px;
+}
 
 .exchange_item {
     margin-right: 10px;
@@ -37,7 +40,7 @@
 }
 
 .wrapper {
-    width: 70%;
+    max-width: 1000px;
 }
 
 .search_field {
@@ -76,6 +79,7 @@ div > button {
 .banner {
     margin-top: 20px;
     width: 80%;
+    max-width: 1000px;
     height: auto;
 }
 
@@ -96,18 +100,45 @@ div > button {
     margin-right: 10px;
 }
 
-.visit > li > span {
+.visit > li > a > span {
     font-weight: bolder;
 }
 
 ul > li {
     margin-bottom: 10px;
 }
-span.grey{
+
+span.grey {
     color: #989ea2;
 }
 
-.block_header_pic{
+.block_header_pic {
     border-radius: 7px;
     height: 25px;
 }
+
+li > .playIcon {
+    margin-right: 5px;
+}
+
+li > a, .news_item > a {
+    color: black;
+}
+
+.weather_temperature_big {
+    font-size: 30px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.weather_pic {
+    width: 50px;
+    height: 50px;
+}
+
+.news_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+

@@ -4,7 +4,7 @@ export default function Block(props) {
 
     let pic = null;
     if (props.pic !== null && props.pic !== undefined) {
-        pic = <img className='block_header_pic' src={props.pic}/>
+        pic = <img className='block_header_pic' src={props.pic} alt='header'/>
     }
 
     return (
