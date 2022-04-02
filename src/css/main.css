@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.news_item {
+    margin-top: 10px;
+}
+
 .news_pic {
     width: 20px;
     height: 20px;
@@ -65,8 +69,8 @@ div > button {
     color: #000;
     letter-spacing: -.015em;
     cursor: pointer;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .banner {
@@ -75,5 +79,35 @@ div > button {
     height: auto;
 }
 
+.column {
+    padding-top: 30px;
+    padding-right: 60px;
+
+}
+
+.bottom_block {
+    margin-bottom: 20px
+}
 
 
+.block_header > h3 {
+    color: #3a5bb4;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.visit > li > span {
+    font-weight: bolder;
+}
+
+ul > li {
+    margin-bottom: 10px;
+}
+span.grey{
+    color: #989ea2;
+}
+
+.block_header_pic{
+    border-radius: 7px;
+    height: 25px;
+}

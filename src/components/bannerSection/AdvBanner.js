@@ -1,5 +1,5 @@
 import React from "react";
-import banner from '../pics/banner1.png';
+import banner from '../../pics/banner1.png';
 
 export default function AdvBanner(props) {
 
