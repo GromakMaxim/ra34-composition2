@@ -1,0 +1,79 @@
+.widget {
+    width: 80%;
+    margin: auto;
+}
+
+.news_pic {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.exchange_item {
+    margin-right: 10px;
+}
+
+.exchange_item_cur1, .exchange_item_cur2, .exchange_item_val {
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.exchange_item_dyn {
+    font-size: 13px;
+    color: darkgray;
+}
+
+.ss_link {
+    margin-right: 10px;
+}
+
+.fast_funcs {
+    margin-top: 20px;
+}
+
+.wrapper {
+    width: 70%;
+}
+
+.search_field {
+    width: 100%;
+}
+
+.search_field > input {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: 2px solid #fc0;
+    border-radius: 15px;
+    z-index: 10;
+}
+
+div > button {
+    border-radius: 15px;
+    height: 40px;
+    background-color: #fc0;
+    border: 0;
+    margin-top: 10px;
+    z-index: 1;
+    right: 0;
+}
+
+.button__text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: -.015em;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+
+
+
